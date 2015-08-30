@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="4bb31378-c36c-4cfb-9fc5-8d069cb5f3a9" SharePointProductVersion="16.0">
+  <FeatureManifests>
+    <FeatureManifest Location="PhoneBook_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

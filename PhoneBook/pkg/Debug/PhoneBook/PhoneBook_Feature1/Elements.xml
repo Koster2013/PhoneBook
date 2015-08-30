@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RootModule">
+    <File Path="fonts\glyphicons-halflings-regular.woff2" Url="fonts/glyphicons-halflings-regular.woff2" ReplaceContent="TRUE" />
+    <File Path="fonts\glyphicons-halflings-regular.woff" Url="fonts/glyphicons-halflings-regular.woff" ReplaceContent="TRUE" />
+    <File Path="fonts\glyphicons-halflings-regular.ttf" Url="fonts/glyphicons-halflings-regular.ttf" ReplaceContent="TRUE" />
+    <File Path="fonts\glyphicons-halflings-regular.svg" Url="fonts/glyphicons-halflings-regular.svg" ReplaceContent="TRUE" />
+    <File Path="fonts\glyphicons-halflings-regular.eot" Url="fonts/glyphicons-halflings-regular.eot" ReplaceContent="TRUE" />
+    <File Path="App\main.html" Url="App/main.html" ReplaceContent="TRUE" />
+    <File Path="App\app.js" Url="App/app.js" ReplaceContent="TRUE" />
+    <File Path="App\pages\home.html" Url="App/pages/home.html" ReplaceContent="TRUE" />
+    <File Path="App\pages\add.html" Url="App/pages/add.html" ReplaceContent="TRUE" />
+    <File Path="App\pages\about.html" Url="App/pages/about.html" ReplaceContent="TRUE" />
+    <File Path="App\controllers.js" Url="App/controllers.js" ReplaceContent="TRUE" />
+    <File Path="App\services.js" Url="App/services.js" ReplaceContent="TRUE" />
+    <File Path="App\Default.aspx" Url="App/Default.aspx" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

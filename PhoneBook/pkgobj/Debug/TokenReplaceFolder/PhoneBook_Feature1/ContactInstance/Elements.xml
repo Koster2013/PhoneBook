@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Contact" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/Contact" Description="Meine Listeninstanz">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="FirstName">Marc</Field>
+          <Field Name="FullName">Koster</Field>
+          <Field Name="HomePhone">015287985155</Field>
+          <Field Name="EMail">marc.koster@gmx.de</Field>
+          <Field Name="URL">http://api.randomuser.me/portraits/men/97.jpg</Field>
+        </Row>
+        <Row>
+          <Field Name="FirstName">Erdem</Field>
+          <Field Name="FullName">Güngör</Field>
+          <Field Name="HomePhone">0159845995</Field>
+          <Field Name="EMail">erdem.güngör@döner.de</Field>
+          <Field Name="URL">http://api.randomuser.me/portraits/men/95.jpg</Field>
+        </Row>
+        <Row>
+          <Field Name="FirstName">Lars </Field>
+          <Field Name="FullName">Natus</Field>
+          <Field Name="HomePhone">05454559566</Field>
+          <Field Name="EMail">lars.natus@gmx.de</Field>
+          <Field Name="URL">http://api.randomuser.me/portraits/men/92.jpg</Field>
+        </Row>
+        <Row>
+          <Field Name="FirstName">Hans</Field>
+          <Field Name="FullName">Peter</Field>
+          <Field Name="HomePhone">015287985155</Field>
+          <Field Name="EMail">hans.peter@web.de</Field>
+          <Field Name="URL">http://api.randomuser.me/portraits/men/17.jpg</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

@@ -1,0 +1,3 @@
+c:\users\mk\documents\visual studio 2015\Projects\PhoneBook\PhoneBook\bin\Debug\PhoneBook.pdb
+c:\users\mk\documents\visual studio 2015\Projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.dll
+c:\users\mk\documents\visual studio 2015\Projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.pdb

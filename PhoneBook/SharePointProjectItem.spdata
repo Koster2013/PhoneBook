@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Type="ElementManifest" />
+    <ProjectItemFile Source="fonts\glyphicons-halflings-regular.woff2" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\glyphicons-halflings-regular.woff" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\glyphicons-halflings-regular.ttf" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\glyphicons-halflings-regular.svg" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\glyphicons-halflings-regular.eot" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="App\main.html" Target="App\" Type="ElementFile" />
+    <ProjectItemFile Source="App\app.js" Target="App\" Type="ElementFile" />
+    <ProjectItemFile Source="App\pages\home.html" Target="App\pages\" Type="ElementFile" />
+    <ProjectItemFile Source="App\pages\add.html" Target="App\pages\" Type="ElementFile" />
+    <ProjectItemFile Source="App\pages\about.html" Target="App\pages\" Type="ElementFile" />
+    <ProjectItemFile Source="App\controllers.js" Target="App\" Type="ElementFile" />
+    <ProjectItemFile Source="App\services.js" Target="App\" Type="ElementFile" />
+    <ProjectItemFile Source="App\Default.aspx" Target="App\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

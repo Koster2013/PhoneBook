@@ -1,0 +1,34 @@
+﻿
+
+<div class="row">
+    <p></p>
+    <div class="col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8">
+        <form name="mainForm" ng-submit="addContact()" method="post">
+            <fieldset>
+                <div class="form-group">
+                    <input id="txtFirstName" type="text" class="form-control" placeholder="First Name" ng-model="contact.FirstName" required>
+                </div>
+                <div class="form-group">
+                    <input id="txtLastName" type="text" class="form-control" placeholder="Full Name" ng-model="contact.FullName" required>
+                </div>
+                <div class="form-group">
+                    <input id="txtHomePhone" type="text" pattern="[0-9].*" class="form-control" placeholder="Phone" ng-model="contact.HomePhone">
+                </div>
+                <div class="form-group">
+                    <input id="txtEMailAddress" type="email" class="form-control" placeholder="E-Mail" ng-model="contact.EMail">
+                </div>
+                <div class="form-group">
+                    <input id="txtUrl" type="text" class="form-control" placeholder="Pic Url" ng-model="contact.Url">
+                </div>
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <input type="submit" name="register-submit" id="cmdSave" class="form-control btn btn-primary" value="Save" >
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    </div>

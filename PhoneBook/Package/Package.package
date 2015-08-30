@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="4bb31378-c36c-4cfb-9fc5-8d069cb5f3a9" 
+        solutionId="4bb31378-c36c-4cfb-9fc5-8d069cb5f3a9" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="PhoneBook"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="b00a0676-9dc1-4c24-a2c3-f321f85fa91b" />
+  </features>
+</package>

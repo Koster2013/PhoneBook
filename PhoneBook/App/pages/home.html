@@ -1,0 +1,19 @@
+﻿
+<ul class="list-group" id="contact-list" ng-repeat="contact in contacts | filter:query | orderBy: 'FirstName' ">
+    <li class="list-group-item">
+        <div class="col-xs-12 col-sm-3">
+            <img src="{{contact.URL.Url}}" alt="{{contact.FirstName}} {{contact.FullName}}" class="img-responsive img-circle" style="max-height: 125px;" />
+        </div>
+        <div class="col-xs-12 col-sm-9">
+            <div class="pull-right"><p><a data-ng-click="deleteContact(contact.Id)">Delete</a></p></div>
+            <span class="name">{{contact.FirstName}} {{contact.FullName}}</span><br />
+            <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="{{contact.HomePhone}}"></span>
+            <span > <span class="text-muted">{{contact.HomePhone}}</span><br /></span>
+            <span class="fa fa-envelope text-muted c-info" data-toggle="tooltip" title="{{contact.EMail}}"></span>
+            <span > <span class="text-muted">{{contact.EMail}}</span><br /></span>
+          
+
+        </div>
+        <div class="clearfix"></div>
+    </li>
+</ul>
