@@ -7,7 +7,7 @@
 <%@ Register TagPrefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 
 <%-- Markup und Skript im folgenden Inhaltselement werden im <head> der Seite platziert. --%>
-<head>
+<asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">
 
     <title>Phone Book</title>
 
@@ -23,11 +23,12 @@
     <script src="services.js"></script>
 
     <script src="//rawgithub.com/stidges/jquery-searchable/master/dist/jquery.searchable-1.0.0.min.js"></script>
-</head>
+</asp:Content>
+
 
 
 <%-- Markup und Skript im folgenden Inhaltselement werden im <body> der Seite platziert. --%>
-<body>
+<asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
 
     <div ng-app="PhoneBookApp">
        <div class="row">
@@ -65,4 +66,4 @@
     </div>
 
 
-</body>
+</asp:Content>

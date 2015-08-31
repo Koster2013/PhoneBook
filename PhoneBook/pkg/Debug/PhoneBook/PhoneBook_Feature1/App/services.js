@@ -32,7 +32,7 @@ app.factory("restService",
       }
 
 
-      service.addContact1 = function (FirstName, FullName, HomePhone, EMail ,Url) {
+      service.addContact = function (FirstName, FullName, HomePhone, EMail ,Url) {
           var restQueryUrl = "../_api/web/lists/getByTitle('Contact')/items";
 
           var customerData = {
