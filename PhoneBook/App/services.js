@@ -41,7 +41,7 @@ app.factory("restService",
               FullName: FullName,
               HomePhone: HomePhone,
               EMail: EMail,
-              URL: { "Url": 'http://api.randomuser.me/portraits/men/95.jpg' }
+              URL: { "Url": Url }
           };
 
           var requestBody = JSON.stringify(customerData);

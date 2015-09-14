@@ -1,11 +1,23 @@
 ﻿
-<ul class="list-group" id="contact-list" ng-repeat="contact in contacts | filter:query | orderBy: 'FirstName' ">
-    <li class="list-group-item">
-        <div class="col-xs-12 col-sm-3">
-            <img src="{{contact.URL.Url}}" alt="{{contact.FirstName}} {{contact.FullName}}" class="img-responsive img-circle" style="max-height: 125px;" />
+<div class="row" >
+    <div class="col-xs-12">
+        <div class="input-group c-search">
+            <input type="text" ng-model="query" class="form-control" id="contact-list-search">
+            <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search text-muted"></span></button>
+            </span>
         </div>
-        <div class="col-xs-12 col-sm-9">
-            <div class="pull-right"><p><a data-ng-click="deleteContact(contact.Id)">Delete</a></p></div>
+    </div>
+</div>
+
+<ul class="list-group" id="contact-list" ng-repeat="contact in contacts | filter:query | orderBy: 'FirstName' ">
+
+    <li class="list-group-item">
+        <div class="col-xs-3 col-sm-3">
+            <img src="{{contact.URL.Url}}" alt="{{contact.FirstName}} {{contact.FullName}}" class="img-responsive img-circle" style="color: #0072c6;max-height: 125px;" />
+        </div>
+        <div class="col-xs-9 col-sm-9">
+            <div class="pull-right"><button class="btn btn-default" type="button" data-ng-click="deleteContact(contact.Id)"><span class="glyphicon glyphicon-remove text-muted"></span></button></div>
             <span class="name">{{contact.FirstName}} {{contact.FullName}}</span><br />
             <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="{{contact.HomePhone}}"></span>
             <span > <span class="text-muted">{{contact.HomePhone}}</span><br /></span>

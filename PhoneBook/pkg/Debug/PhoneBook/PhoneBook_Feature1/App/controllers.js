@@ -47,6 +47,6 @@ app.controller('addCtrl',
 app.controller('aboutCtrl',
        function ($scope) {
            $scope.title = "Phone Book App by Marc Koster"
-           $scope.description = "This is my Phone Book App"
+           $scope.description = "Die ultimative Phonebook App"
        }
 );

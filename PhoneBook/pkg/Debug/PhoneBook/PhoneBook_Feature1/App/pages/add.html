@@ -3,10 +3,14 @@
 <div class="row">
     <p></p>
     <div class="col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8">
-        <div name="myForm" novalidate>
+
+        <div style="color: #0072c6;">
+            <i style="color: white;" class="fa fa-phone-square"></i>
+        </div>
+        <ng-form name="myForm" novalidate>
             <fieldset>
                 <div class="form-group">
-                    <input id="txtFirstName" name="firstname" type="text" class="form-control" placeholder="First Name" ng-model="contact.FirstName" required>
+                    <input id="txtFirstName" name="firstname" type="text" class="form-control" placeholder="First Name" ng-model="contact.FirstName" autofocus required>
                
                 </div>
                 <div class="form-group">
@@ -39,6 +43,6 @@
                     </div>
                 </div>
             </fieldset>
-        </div>
+        </ng-form>
     </div>
     </div>
